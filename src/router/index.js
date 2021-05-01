@@ -17,8 +17,12 @@ const Router= () =>{
                 component={SignIn} 
                 options={{headerShown:false}}>
             </Stack.Screen>
+            <Stack.Screen 
+                name="SignUp" 
+                component={SignUp} 
+                options={{headerShown: false}}>
+            </Stack.Screen>
         </Stack.Navigator>
             )
 }
-
 export default Router;
